@@ -9,3 +9,8 @@ python manage.py startapp nameapp
 
 # Run the app
 python manage.py runserver 
+
+# Migrate database
+- python manage.py makemigrations
+- python manage.py migrate
+
